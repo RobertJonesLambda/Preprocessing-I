@@ -55,7 +55,44 @@ table {
 
 html, body {
 	height: 100%;
-	
+	width: 100%;
+	font-size: 62.5;
+}
+//variables
+@colorwhite: white;
+
+
+//mixins
+.center() {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 
+.header {
+	background-color: #B0C4DE;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 2%;
+		
+			h1 {
+				color: @colorwhite;
+				font-size: 3rem;
+				.center()
+			}
+
+			h2 {
+				color: @colorwhite
+				font-size: 2rem;
+				padding: 1%;
+				.center()
+			}
+}
+
+.skills {
+	display: flex;
+	flex-direction: column;
+	
+}
