@@ -81,14 +81,14 @@ html, body {
 			h1 {
 				color: @colorwhite;
 				font-size: 3rem;
-				.center()
+				.center();
 			}
 
 			h2 {
 				color: @colorwhite;
 				font-size: 2rem;
 				padding: 1%;
-				.center()
+				.center();
 			}
 			
 			@media (max-width: 500px) {
@@ -105,7 +105,7 @@ html, body {
 .skills {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
+	width: 25%;
 	height: 100%;
 	background-color: @colorblue;
 
@@ -123,7 +123,7 @@ html, body {
 			}	
 		
 		.contact {
-			margin-top: 20%;
+			margin-top: 15%;
 			background-color: @colorblue;
 			color: @colorwhite;
 
@@ -133,12 +133,13 @@ html, body {
 }
 
 .work-experience {
-	display: inline-flex;
+	display:flex;
 	flex-direction: column;
-	align-content: flex-end;
-	margin-left: 50%;
-	width: 60%;
-		 
+	align-items: flex-start;
+	margin-left: 30%;
+	
+	
+	
 	.profile-contain {
 		margin: 1%;
 		color: @colorblue;
@@ -163,8 +164,20 @@ html, body {
 		margin-right: 5%;
 		color: @colorblue;
 	}
+	.ed-text {
+		margin: 1%;
+		margin-right: 5%;
+		color: @colorblue;
+	}
 	.hobby-head {
-		
+		margin: 1%;
+		margin-right: 5%;
+		color: @colorblue;
+	}
+	.hobby-text {
+		margin: 1%;
+		margin-right: 5%;
+		color: @colorblue;
 	}
 
 

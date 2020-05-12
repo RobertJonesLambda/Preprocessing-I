@@ -168,7 +168,7 @@ body {
 .skills {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 25%;
   height: 100%;
   background-color: #191970;
 }
@@ -186,16 +186,15 @@ body {
   margin-top: 20%;
 }
 .skills .contact {
-  margin-top: 20%;
+  margin-top: 15%;
   background-color: #191970;
   color: white;
 }
 .work-experience {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  align-content: flex-end;
-  margin-left: 50%;
-  width: 60%;
+  align-items: flex-start;
+  margin-left: 30%;
 }
 .work-experience .profile-contain {
   margin: 1%;
@@ -217,6 +216,21 @@ body {
   color: #191970;
 }
 .work-experience .ed-head {
+  margin: 1%;
+  margin-right: 5%;
+  color: #191970;
+}
+.work-experience .ed-text {
+  margin: 1%;
+  margin-right: 5%;
+  color: #191970;
+}
+.work-experience .hobby-head {
+  margin: 1%;
+  margin-right: 5%;
+  color: #191970;
+}
+.work-experience .hobby-text {
   margin: 1%;
   margin-right: 5%;
   color: #191970;
