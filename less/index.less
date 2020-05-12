@@ -54,6 +54,134 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	width: 100%;
+	font-size: 62.5;
 }
+//variables
+@colorwhite: white;
+@colorblue: #191970;
+
+//mixins
+.center() {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.header {
+	background-color: #B0C4DE;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 200px;
+	padding: 2%;
+		
+			h1 {
+				color: @colorwhite;
+				font-size: 3rem;
+				.center();
+			}
+
+			h2 {
+				color: @colorwhite;
+				font-size: 2rem;
+				padding: 1%;
+				.center();
+			}
+			
+			@media (max-width: 500px) {
+				height: 150px;
+				padding: 4%;
+
+
+
+			}			
+		
+}
+
+
+.skills {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	height: 100%;
+	background-color: @colorblue;
+
+		.professional {
+			color: @colorwhite;
+			.center();
+
+		}
+		    
+			#skill-list {
+				font-size: 1.5rem;
+				.center();
+				margin-top: 20%;
+
+			}	
+		
+		.contact {
+			margin-top: 15%;
+			background-color: @colorblue;
+			color: @colorwhite;
+
+
+
+		}
+}
+
+.work-experience {
+	display:flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 30%;
+	
+	
+	
+	.profile-contain {
+		margin: 1%;
+		color: @colorblue;
+	}
+	#para-contain {
+		margin: 1%;
+		margin-right: 5%;
+		color: @colorblue;
+	}
+	.hist-head {
+		margin: 1%;
+		margin-right: 5%;
+		color: @colorblue;
+	}
+	.hist-text {
+		margin: 1%;
+		margin-right: 5%;
+		color: @colorblue;
+	}
+	.ed-head {
+		margin: 1%;
+		margin-right: 5%;
+		color: @colorblue;
+	}
+	.ed-text {
+		margin: 1%;
+		margin-right: 5%;
+		color: @colorblue;
+	}
+	.hobby-head {
+		margin: 1%;
+		margin-right: 5%;
+		color: @colorblue;
+	}
+	.hobby-text {
+		margin: 1%;
+		margin-right: 5%;
+		color: @colorblue;
+	}
+
+
+
+
+}	
 
