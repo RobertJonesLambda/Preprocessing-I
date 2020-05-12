@@ -159,11 +159,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .header {
+    height: 150px;
+    padding: 4%;
+  }
+}
 .skills {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   width: 30%;
+  height: 100%;
   background-color: #191970;
 }
 .skills .professional {
@@ -174,10 +180,44 @@ body {
 }
 .skills #skill-list {
   font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+.skills .contact {
+  margin-top: 20%;
+  background-color: #191970;
+  color: white;
 }
 .work-experience {
   display: inline-flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-content: flex-end;
+  margin-left: 50%;
   width: 60%;
+}
+.work-experience .profile-contain {
+  margin: 1%;
+  color: #191970;
+}
+.work-experience #para-contain {
+  margin: 1%;
+  margin-right: 5%;
+  color: #191970;
+}
+.work-experience .hist-head {
+  margin: 1%;
+  margin-right: 5%;
+  color: #191970;
+}
+.work-experience .hist-text {
+  margin: 1%;
+  margin-right: 5%;
+  color: #191970;
+}
+.work-experience .ed-head {
+  margin: 1%;
+  margin-right: 5%;
+  color: #191970;
 }
